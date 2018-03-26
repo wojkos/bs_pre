@@ -1,0 +1,412 @@
+/*######################################################*/
+/*Główne*/
+/*######################################################*/
+body{
+	font-family: 'Open Sans';
+	color: #34495e;
+	background-color: #ffffff; 
+}
+.btn-success{
+	background-color: #1abc9c;
+	border-color: #1abc9c;
+	margin-top: 4rem;
+}
+.btn-success:hover{
+	background-color: #48c9b0;
+	border-color: #48c9b0;
+}
+/*######################################################*/
+/*Typografia*/
+/*######################################################*/
+h1,h2,h3,h4,h5,h6{
+	color: #5c6166;
+	font-weight: 300;
+}
+h1{
+	font-size: 6rem;
+}
+h2{
+	font-size: 4rem;
+	line-height: 6rem;
+}
+h3{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+h4{
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #a4abb3;
+}
+.naglowek_czerwony{
+	color: #fc4349;
+}
+a:hover{
+	text-decoration: none;
+}
+.glyphicon{
+	color: #6dbcdb;
+}
+/*######################################################*/
+/*Menu górne*/
+/*######################################################*/
+
+#menu{
+	background-color: #2c3e50;
+}
+
+.navbar{
+	background-color: #2c3e50;
+	font-size: 1.7rem;
+	color: #ffffff;
+	padding-top: 3rem;
+	border-color: #2c3e50;
+}
+
+.navbar-outer{
+	width: 1200px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #ffffff;
+	margin-left: 5px;
+	border: 1px solid transparent;
+	line-height: 1rem;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	display: block;
+	color: #fc4349;
+	border: 1px solid transparent;
+	border-color: #fc4349;
+	line-height: 1rem;
+	border-radius: 4px;
+	transition: all 0.7s ease;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	display: block;
+	border-color: #ffffff;
+	background-color: #2c3e50;
+	border-radius: 4px;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+	color: #fc4349;
+	background-color: #2c3e50;
+}
+
+
+#logo img{
+	display: block;
+	float:  none;
+	margin-top: -26px;
+	width: 100px;
+}
+}
+/*######################################################*/
+/*Slajdy*/
+/*######################################################*/
+#pokaz-slajdow{
+	padding-top: 9rem;
+}
+.carousel .item{
+	width: 100%;
+	max-height: 900px;
+}
+.carousel .item img{
+	width: 100%;
+}
+.carousel .carousel-control{
+	background: none;
+	border:none;
+	top: 50px;
+}
+.carousel-caption{
+	top: 100px;
+	bottom: auto;
+}
+.carousel-caption h1{
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 8rem;
+	color: #ffffff;
+}
+.carousel-caption p{
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: #ffffff;
+}
+/*######################################################*/
+/*Nowości*/
+/*######################################################*/
+#nowosci{
+	padding-top: 9rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.nowosci_panel{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: left;
+	border-bottom:solid 1px #e5e5e5;
+}
+.nowosci_panel:hover{
+	background-color:#f7f8fa;}
+/*######################################################*/
+/*o nas*/
+/*######################################################*/
+#onas{
+	padding-top: 9rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+.onas_naglowek{
+	margin-bottom: 5rem;
+}
+.thumbnail{
+	background-color: #1abc9c;
+	border-radius: 8px;
+	padding: 2rem;
+}
+.thumbnail h3{
+	color: #ffffff;
+}
+.thumbnail p{
+	color: #ffffff;
+	font-size:1.5rem;
+}
+#nowosci a:hover{
+	-webkit-animation:pulse .8s;
+	animation: pulse .8s;
+}
+/*######################################################*/
+/*firma w liczbach*/
+/*######################################################*/
+#liczby{
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	background-color: #6dbcdb;
+}
+#liczby h1,
+#liczby h5{
+	color: #6dbcdb
+}
+#liczby p,
+#liczby h3{
+	color: #ffffff
+}
+
+.liczba_kafel{
+	background-color: #ffffff;
+	padding-top: 2rem;
+	padding-bottom:3rem;
+	border-radius: 1rem;
+	text-align: center;
+	margin-bottom: 2rem;
+
+}
+.liczba_kafel h1{
+	font-weight: 500;
+}
+.liczba_kafel h5{
+	font-size: 2rem;
+}
+/*######################################################*/
+/*zespol*/
+/*######################################################*/
+#zespol{
+	padding-top: 9rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+.zespol_przyciski > li {
+	float: none;
+	display: inline-block;
+	padding-left: 1rem;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.zespol_przyciski > li > a{
+	border: 1px solid #fc4349;
+	color: #fc4349;
+}
+.zespol_przyciski > li.active > a,
+.zespol_przyciski > li.active > a:focus,
+.zespol_przyciski > li.active > a:hover{
+	color: #ffffff;
+	background-color: #fc4349;
+}
+.zespol_przyciski > li > a:hover{
+	background-color: #ffffff;
+	-webkit-animation:rubberBand .5s;
+	animation: rubberBand .5s;
+}
+.zespol_naglowek{
+	padding-bottom: 5rem;
+}
+.zespol_ikony a:hover span{
+	-webkit-animation:rubberBand .8s;
+	animation: rubberBand .8s;
+}
+
+/*######################################################*/
+/*wspołpracownicy*/
+/*######################################################*/
+#wspolpracownicy{
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+.wspolpracownicy_naglowek{
+	padding-bottom: 5rem;
+}
+.wspolprac_foto{
+	padding: 1.7rem;
+	margin:0 auto;
+	width: 26rem;	
+}
+#wspolpracownicy a:hover img{
+	-webkit-animation:pulse 1s;
+	animation: pulse 1s;
+}
+#wspolpracownicy a:hover span{
+	-webkit-animation:flip .5s;
+	animation: flip .5s;}
+/*######################################################*/
+/*wspołpracownicy*/
+/*######################################################*/
+#kursy{
+padding-top: 9rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+.kursy_naglowek{
+	padding-bottom: 5rem;
+}
+.kursy_zdj{
+	margin-bottom: 1.5rem;
+}
+#kursy a:hover img{
+-webkit-animation:pulse 1s;
+	animation: pulse 1s;
+	opacity: 0.8;
+}
+/*######################################################*/
+/*klienci*/
+/*######################################################*/
+#klienci{
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	text-align: center;
+	height: 40rem;
+	background-color: #000000;
+	width: 100%;
+	margin:0 auto;
+	display: inline-block;
+	background: url('../images/klienci_tlo.jpg') repeat 0 1000px fixed;
+}
+#klienci h2{
+	color:#ffffff;
+	margin-bottom: 4rem;
+}
+/*######################################################*/
+/*klienci*/
+/*######################################################*/
+#promocje{
+	padding-top: 9rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+.promocje_naglowek{
+	padding-bottom: 5rem;
+}
+#promocje p,
+#promocje h5{
+	text-align: left;
+	margin-bottom: 4rem;
+}
+#promocje hr{
+	background-color: #fc4349;
+	color: #fc4349;
+	width: 100px;
+	height: 2px;
+	margin-top: -5px;
+}
+
+/*######################################################*/
+/*wyprzedaz*/
+/*######################################################*/
+#wyprzedaz{
+	padding-top: 9rem;
+	padding-bottom: 10rem;
+	text-align: center;
+}
+.wyprzedaz_naglowek{
+	padding-bottom: 5rem;
+}
+.wyp_nag{
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+	background-color: #ECF0F1;
+	border-top-right-radius: 0.4rem;
+	border-top-left-radius: 0.4rem;
+}
+.wyp_zdj{
+	position: relative;;
+	left: 0;
+	top: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wyp_opis{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	font-size: 1.5rem;
+	background-color: #E4E4E4;
+	border-bottom-right-radius: 0.4rem;
+	border-bottom-left-radius: 0.4rem;
+
+}
+#wyprzedaz a:hover{
+	-webkit-animation:pulse .8s;
+	animation: pulse .8s;
+}
+
+
+/*######################################################*/
+/*kontakt*/
+/*######################################################*/
+#kontakt{
+	padding-top: 15rem;
+	padding-bottom: 3rem;
+	text-align: left;
+}
+.kontakt_naglowek{
+	padding-bottom: 5rem;
+}
+#kontakt button:hover{
+	-webkit-animation:wobble .8s;
+	animation: wobble .8s;}
+/*######################################################*/
+/*stopka*/
+/*######################################################*/
+#stopka{
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+	text-align: left;
+	background-color: #2c3e50;
+	color: #ffffff;
+}
+#stopka h4{
+	color: #ffffff;
+}
+#stopka img{
+float: right;
+margin-right: 2rem;
+width: 4rem
+}
